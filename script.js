@@ -48,3 +48,12 @@ function desencriptar(stringDesencriptada){
 
     return stringDesencriptada
 } 
+
+function copy() {
+    let copyText = document.querySelector(".mensaje");
+    copyText.select();
+    document.execCommand("copy");
+  }
+  
+  document.querySelector("#copy").addEventListener("click", copy);
+  

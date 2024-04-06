@@ -1,7 +1,6 @@
-# encriptador-texto
-Encriptador y desencriptador de texto
+# Encriptador-texto
 
 Instrucciones: 
-  - Colocar el texto donde se indica;
-  - Dar click en el botón desencriptar;
-  - Para desencriptar se debe dar click al segundo botón.
+ - Colocar el texto que desea encriptar o desencriptar, según sea el caso;
+ - Dar click en el botón correspondiente;
+ - Si lo desea, puede copiar el texto al portapapeles dando click en el botón copiar.

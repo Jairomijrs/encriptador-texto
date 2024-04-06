@@ -87,3 +87,37 @@ main{
     color: #495057;
     font-size: 18px;
 }
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconos a{
+    font-size: 30px;
+    transition: all ease 400ms;
+}
+
+.iconos a:hover{
+    transform: scale(1.4);
+
+}
+
+.github{
+    color: #d8dfe8;
+}
+
+.linkedin{
+    color: #0a3871;
+}
+
+.instagram{
+    color:darksalmon;
+}

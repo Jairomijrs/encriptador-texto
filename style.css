@@ -14,15 +14,29 @@
 
 main{
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    felex-direction: column;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10%;
 }
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+} 
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+} 
 
 .text-area{
     border: none;
     color: #0a3871;
-    margin-top: 90px;
+    margin-top: 20px;
     text-transform: lowercase;
+    border-radius: 20px;
+    width: auto;
 }
 ::placeholder { color: #0a3871; }
     .text-area:focus {
@@ -33,13 +47,12 @@ main{
     background: white;
     background-image: url(imagenes/Muñeco.png);
     background-repeat: no-repeat;
+    background-position: center;
     border: none;
     border-radius: 24px;
     color: #0a3871;
-    margin-left: 98px;
     margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
+    width: auto;
 }
 .mensaje:focus{
     outline: none;
@@ -90,12 +103,14 @@ main{
 
 .copyright{
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 25px;
     margin: 20px;
 }
 
 .iconos{
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: center;
     gap: 20px;
 }
@@ -120,4 +135,10 @@ main{
 
 .instagram{
     color:darksalmon;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        width: auto;
+}
 }
